@@ -161,7 +161,7 @@ elif len(files) >= 1 or not file == "":
             print("Couldn't find ffmpeg!")
             print("Install it with 'sudo apt install ffmpeg'")
         if len(args.e) == 0:
-            DEF = "/home/lamarca/L4/Musik/div/unknown.png"
+            DEF = "./unknown.png"
             os.system(FFM + " -i " + file + " -i " + DEF + " -map 0:0 -map 1:0 -c copy -id3v2_version 3 -metadata:s:v title='Cover' -metadata:s:v comment='Cover (front)' out.mp3")
         elif re.match(r"(^https\:|^http\:)", str(args.e)):
             ext = str(re.findall(r"\.\w+(?!.*\.\w+)$", str(args.e))[0])
