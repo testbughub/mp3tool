@@ -5,7 +5,7 @@ This is just something I made while learning to use argparse for python.
 ### Dependencies
 `youtube-dl` - downloading  
 `ffmpeg` - converting/embedding  
-`mid3v2` - id3 tagging  
+`mutagen` - id3 tagging  
 `replaygain` - gain analyzing
 
 ### Getting started
