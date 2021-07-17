@@ -30,7 +30,7 @@ optional arguments:
   -i <file> [<file> ...]  input file(s)
   -p                      create folder(s) based on artist
   -l                      list ID3v2 tags
-  -g                      analyze and save replay gain
+  -g                      analyze and store replay gain
   -a <artist>             set artist tag
   -t <title>              set song title tag
   -b <album>              set album tag

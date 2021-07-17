@@ -18,7 +18,7 @@ parser.add_argument("-p", help="create folder(s) based on artist", action="store
 
 parser.add_argument("-l", help="list ID3v2 tags", action="store_true")
 
-parser.add_argument("-g", help="analyze and save replay gain", action="store_true")
+parser.add_argument("-g", help="analyze and store replay gain", action="store_true")
 
 parser.add_argument("-a", metavar="<artist>", help="set artist tag", action="store")
 
