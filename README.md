@@ -28,8 +28,8 @@ optional arguments:
   -a <artist>             set artist tag
   -t <title>              set song title tag
   -b <album>              set album tag
-  -e <image|URL>          embed image (leave blank for default)
+  -e <image|URL>          embed image (leave blank for unknown)
   -m <playlist name>      create m3u playlist
   ```
   
-  ###### unknown image by [Spencer Imbrock](https://unsplash.com/photos/JAHdPHMoaEA)
+  ###### 'unknown' image by [Spencer Imbrock](https://unsplash.com/photos/JAHdPHMoaEA)
