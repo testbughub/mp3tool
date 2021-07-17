@@ -6,7 +6,7 @@ This is just something I made while learning to use argparse for python.
 `youtube-dl` - downloading  
 `ffmpeg` - converting/embedding  
 `mutagen` - id3 tagging  
-`replaygain` - gain analyzing
+`rgain3` - gain analyzing
 
 ### Getting started
 ```
