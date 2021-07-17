@@ -2,6 +2,12 @@
 Simple python script for various basic mp3 operations.  
 This is just something I made while learning to use argparse for python.
 
+### Dependencies
+`youtube-dl` - downloading  
+`ffmpeg` - downloading/converting/embedding  
+`mid3v2` - id3 tagging  
+`replaygain` - gain analyzing
+
 ### Getting started
 ```
 git clone https://github.com/testbughub/mp3tool
