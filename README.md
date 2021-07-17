@@ -1,5 +1,5 @@
 ## Description
-Simple python script for various basic mp3 modifications.  
+Simple python script for various basic mp3 operations.  
 This is just something I made while learning to use argparse for python.
 
 ### Getting started
