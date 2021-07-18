@@ -227,8 +227,3 @@ elif args.m:
     playlistclean = re.sub(r"(\,|\/)", " ", args.m)
     os.system(FIN + " . -iname '*.mp3' > " + re.escape(playlistclean) + ".m3u")
     print('Done!')
-
-# # No files = error
-# else:
-#     parser.error("Missing input file(s)!")
-#     sys.exit()
